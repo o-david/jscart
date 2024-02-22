@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cart</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="cart">
+        <div class="item">
+            <h1>school bag</h1>
+            <p class="price"> $ <span id="price1"> 10</span></p>
+            <button onclick= add(1) class="inc">+</button>
+            <span id="qty1" class="qty">1</span>
+            <button onclick=sub(1) class="dec">-</button>
+            <p id="total1" class="total"></p>
+        </div>
+        <div class="item">
+            <h1>school shoes</h1>
+            <p class="price"> $ <span id="price2">30</span></p>
+            <button onclick=add(2) class="inc">+</button>
+            <span id="qty2" class="qty">1</span>
+            <button onclick=sub(2) class="dec">-</button>
+            <p id="total2" class="total"></p>
+        </div>
+        <div class="item">
+            <h1>school Socks</h1>
+            <p class="price"> $ <span id="price3"> 1</span></p>
+            <button onclick=add(3) class="inc">+</button>
+            <span id="qty3" class="qty3">1</span>
+            <button onclick=sub(3) class="dec">-</button>
+            <p id="total3" class="total"></p>
+        </div>
+
+        <div>
+            <h1>total</h1>
+            <span id="total"></span>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
