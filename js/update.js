@@ -51,6 +51,10 @@ items.forEach(item => {
         total.innerHTML = `$${price*quantity}`
     })
     dec.addEventListener('click', ()=>{
+        quantity--
+        console.log(quantity);
+        console.log(price);
+        qty.innerHTML = quantity
         total.innerHTML = `$${price*quantity}`
     })
 });
