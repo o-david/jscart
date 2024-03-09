@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  border: blue 1px solid;
+  width: 40%;
+}
+.heading {
+  background-color: skyblue;
+  color: white;
+  text-align: center;
+}
+.cal-body {
+  width: 60%;
+  padding: 0.5rem;
+  margin: 20px auto;
+  border: blue 1px solid;
+  color: white;
+}
+.display {
+  padding: 0.5rem;
+  border: black 4px solid;
+  background-color: green;
+  display: flex;
+  justify-content: end;
+}
+.keypad {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.nums {
+  width: 22%;
+  background-color: green;
+  text-align: center;
+  padding: 1rem 0;
+}
+.clear {
+  background-color: red;
+  text-align: center;
+  padding: 1rem 0;
+}
